@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Categorías | BREAKING BAD</title>
+    <meta name="description"
+        content="Reparto, premios, sitios que aparecen en la serie... si eres fan de Breaking Bad ¡Este es tu sitio! .">
+    <link rel="stylesheet" href="css/styles.css">
+    <script async src="js/script.js"></script>
+    <link rel="icon" href="img/logos/logo-bb-300x179.png">
+</head>
+
+<body class="page-index">
+    <include src="src/header.html"></include>
+    <main>
+
+        <div class="container categories-container">
+
+            <section id="title-categories">
+                <h2>Categorías</h2>
+                <p>Aquí encontrarás multitud de datos interesantes sobre la serie, como personajes principales, secundarios, lugares reales donde se 
+                    rodarón algunas de las más míticas escenas de la serie, así como curiosidades sobre el rodaje o premios que ha ganado la serie.</p>
+            </section>
+
+            <section id="categories">
+                        <h3>Categorías</h3>
+                        <ul>
+                            <li>
+                                <input type="checkbox" id="character" value="first_checkbox_cat">
+                                <label for="character">
+                                        Personajes
+                                </label>
+                            </li>
+                            <li>
+                                
+                                <input type="checkbox" id="real-place" value="second_checkbox_cat">
+                                <label for="real-place">
+                                        Sitios reales
+                                </label>
+                            </li>
+                            <li>
+                                <input type="checkbox" id="award" value="third_checkbox_cat">
+                                <label for="award">
+                                        Premios
+                                </label>
+                            </li>
+                            <li>
+                                <input type="checkbox" id="curiosity" value="four_checkbox_cat">
+                                <label for="curiosity">
+                                        Curiosidades
+                                </label>
+                            </li>
+                            
+                        </ul>
+                        
+                        <h3>Search</h3>
+                        <form class="search-container">
+                            <div class="search-box">
+                                <a href="#"><img class="search-icon img-fluid" src="img/icons/search.svg" alt="Icon search"></a>     
+                                <input type="text" id="search-bar" placeholder="Busca y encuentra...">
+                            </div>
+                        </form>
+                               
+            </section>
+
+            <div id="categories-block" class="all-categories">
+                    
+                    <ul>
+                        <li class="character">
+                            <a href="detail.html">
+                                <img
+                                    srcset="img/characters/walter-white-detail-250w.jpg 250w, img/characters/walter-white-detail-500w.jpg 500w"
+                                    sizes="(max-width: 1199px) 250px,
+                                            500px"
+                                    src="img/characters/walter-white-detail-500w.jpg"
+                                    class="img-fluid"
+                                    alt="Walter White" />
+                                Walter White
+                            </a>
+                        </li>
+                        <li class="curiosity">
+                            <a href="">
+                                <img
+                                    srcset="img/curiosities/bryan-caston-250w.jpg 250w, img/curiosities/bryan-caston-500w.jpg 500w"
+                                    sizes="(max-width: 1199px) 250px,
+                                            500px"
+                                    src="img/curiosities/bryan-caston-500w.jpg"
+                                    class="img-fluid"
+                                    alt="Bryan Cranston fue Walter White" />
+                                Bryan Cranston fue Walter White en 'Breaking Bad' solo porque otro famoso actor no tuvo mucho ojo
+                            </a>
+                        </li>
+                        <li class="curiosity">
+                            <a href="">
+                                <img
+                                    srcset="img/curiosities/walter-jesse-250w.jpg 250w, img/curiosities/walter-jesse-500w.jpg 500w"
+                                    sizes="(max-width: 1199px) 250px,
+                                            500px"
+                                    src="img/curiosities/walter-jesse-500w.jpg"
+                                    class="img-fluid"
+                                    alt="Walter Withe y Jesse Pinkman" />
+                                Breaking Bad' llegó a ser la joya que es gracias a que la huelga de guionistas cambió todos sus planes
+                            </a>
+                        </li>
+                        <li class="character">
+                            <a href="">
+                                <img
+                                    srcset="img/curiosities/jesse-pinkman-250w.jpg 250w, img/curiosities/jesse-pinkman-500w.jpg 500w"
+                                    sizes="(max-width: 1199px) 250px,
+                                            500px"
+                                    src="img/curiosities/jesse-pinkman-500w.jpg"
+                                    class="img-fluid"
+                                    alt="Jesse Pinkman" />
+                                Jesse Pinkman
+                            </a>
+                        </li>
+                        <li class="character">
+                            <a href="">
+                                <img
+                                    srcset="img/curiosities/hank-schrader-250w.jpg 250w, img/curiosities/hank-schrader-500w.jpg 500w"
+                                    sizes="(max-width: 1199px) 250px,
+                                            500px"
+                                    src="img/curiosities/hank-schrader-500w.jpg"
+                                    class="img-fluid"
+                                    alt="Hank Schrader" />
+                                Hank Schrader
+                            </a>
+                        </li>
+                        <li class="award">
+                            <a href="">
+                                <img
+                                    srcset="img/curiosities/golden-globe-250w.jpg 250w, img/curiosities/golden-globe-500w.jpg 500w"
+                                    sizes="(max-width: 1199px) 250px,
+                                            500px"
+                                    src="img/curiosities/golden-globe-500w.jpg"
+                                    class="img-fluid"
+                                    alt="Golden GLobe Breaking Bad" />
+                                Golden GLobe Breaking Bad
+                            </a>
+                        </li>
+                        <li class="award">
+                            <a href="">
+                                <img
+                                    srcset="img/curiosities/emmys-250w.jpg 250w, img/curiosities/emmys-500w.jpg 500w"
+                                    sizes="(max-width: 1199px) 250px,
+                                            500px"
+                                    src="img/curiosities/emmys-500w.jpg"
+                                    class="img-fluid"
+                                    alt="Emmys Breaking Bad" 
+                                    loading="lazy"/>
+                                5 premios Emmy en 2014, incluyendo mejor serie dramática
+                            </a>
+                        </li>
+                        <li class="real-place">
+                            <a href="">
+                                <img
+                                    srcset="img/curiosities/twisters-250w.jpg 250w, img/curiosities/twisters-500w.jpg 500w"
+                                    sizes="(max-width: 1199px) 250px,
+                                            500px"
+                                    src="img/curiosities/twisters-500w.jpg"
+                                    class="img-fluid"
+                                    alt="Restaurante Twisters"
+                                    loading="lazy" />
+                                Los Pollos Hermanos en realidad se llama Twister y esta situado en Albuquerque
+                            </a>
+                        </li>
+                        <li class="real-place">
+                            <a href="">
+                                <img
+                                    srcset="img/curiosities/walter-white-house-250w.jpg 250w, img/curiosities/walter-white-house-500w.jpg 500w"
+                                    sizes="(max-width: 1199px) 250px,
+                                            500px"
+                                    src="img/curiosities/walter-white-house-500w.jpg"
+                                    class="img-fluid"
+                                    alt="Casa de Walter White" 
+                                    loading="lazy" />
+                                Casa real de Walter White en el 3828 Piermont Dr NE de Albuquerque
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                
+          
+            <div id="pagination">
+                <ul>
+                    <li><a class="active" href="">1</a></li>
+                    <li><a href="">2</a></li>
+                    <li><a href="">3</a></li>
+                    <li><a href="">4</a></li>
+                    <li><a href="">5</a></li>
+                    <li><a href="">6</a></li>
+                    <li><a href="">7</a></li>
+                    <li><a href="">>></a></li>
+                </ul>
+                
+            </div>
+        </div>  
+
+        <include src="src/newsletter.html"></include>
+
+      
+    </main>
+    <include src="src/footer.html"></include>
+</body>
+
+</html>
