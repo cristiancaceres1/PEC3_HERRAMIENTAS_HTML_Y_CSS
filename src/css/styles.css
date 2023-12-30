@@ -415,7 +415,7 @@ Index
     overflow: hidden;
 }
 #about {
-    background-image: url(../img/pinkman-bb.jpg);
+    background-image: url(../img/pinkman-bb.webp);
     background-repeat: no-repeat;
     background-size: cover;
     /*height:500px;*/
