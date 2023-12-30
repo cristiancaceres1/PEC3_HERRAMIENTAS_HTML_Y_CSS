@@ -298,7 +298,7 @@ Newsletter
 Index
 ************/
 #finder-section {
-    background-image: url(../img/background-bb.webp);
+    background-image: url(../img/background-bb-560w.webp);
     background-repeat: no-repeat;
     background-size: cover;
     height:400px;
@@ -585,6 +585,15 @@ Index
     }
     main {
         padding-top: 80px;
+    }
+    #finder-section {
+        background-image: url(../img/background-bb.webp);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height:400px;
+        display: flex;
+        flex-direction: column;
+        padding-top: 200px;
     }
     .page-title-header{
         margin-bottom: 1rem;
