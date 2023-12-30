@@ -29,6 +29,7 @@ html {
 body {
     font-family: var(--font-sans);
     font-weight: 400;
+    font-display: swap;
     color: var(--text-color);
     line-height: 1.5;
     height: 100%;
@@ -897,7 +898,7 @@ Blog / Detail
  *************************/
  @media (min-width: 576px) {
     #related-items ul{
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
     }
 }
  @media (min-width: 768px) {
