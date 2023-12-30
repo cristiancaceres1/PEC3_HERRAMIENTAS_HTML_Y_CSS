@@ -415,15 +415,7 @@ Index
     -webkit-box-orient: vertical;
     overflow: hidden;
 }
-#about {
-    background-image: url(../img/pinkman-bb.webp);
-    background-repeat: no-repeat;
-    background-size: cover;
-    /*height:500px;*/
-    margin-top: 25px;
-    margin-bottom: 25px;
-    display: flex;
-}
+
 #about .Text-block {
     background-color: var(--text-light-color);
     padding: 50px;
@@ -594,6 +586,15 @@ Index
         display: flex;
         flex-direction: column;
         padding-top: 200px;
+    }
+    #about {
+        background-image: url(../img/pinkman-bb.webp);
+        background-repeat: no-repeat;
+        background-size: cover;
+        /*height:500px;*/
+        margin-top: 25px;
+        margin-bottom: 25px;
+        display: flex;
     }
     .page-title-header{
         margin-bottom: 1rem;
